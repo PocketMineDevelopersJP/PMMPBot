@@ -22,5 +22,8 @@
   "scripts": {
     "start": "node index.js",
     "lint": "eslint --ext .js --ignore-path .gitignore . --fix"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
