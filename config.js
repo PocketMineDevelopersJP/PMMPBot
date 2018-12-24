@@ -35,10 +35,10 @@ exports.config = {
      */
   fetchAllMembers: false,
   messageCacheMaxSize: 200,
-  messageCacheLifetime: 200,
-  commandMessageLifetime: 200,
+  messageCacheLifetime: 0,
+  commandMessageLifetime: 1600,
   // The above 2 options are ignored while the interval is 0
-  messageSweepInterval: 60,
+  messageSweepInterval: 0,
 
   /**
      * Sharding Options
