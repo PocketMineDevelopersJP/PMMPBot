@@ -68,7 +68,7 @@ exports.config = {
             options: {}
         },
         */
-    default: 'json'
+    default: 'sqlite'
   },
 
   /**
