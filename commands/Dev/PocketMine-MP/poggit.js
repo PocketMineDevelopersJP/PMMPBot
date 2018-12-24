@@ -8,8 +8,8 @@ module.exports = class extends Command {
       enabled: true,
       runIn: ['text', 'dm', 'group'],
       requiredPermissions: [],
-      description: '',
-      extendedHelp: 'No extended help available.',
+      description: 'Poggitにリリースされたプラグインを検索します。',
+      extendedHelp: '検索と呼べない位ガバガバなのでプラグインの名前は大文字小文字揃えて下さい(許して下さいお願いします。そのうちなんとかしますから)',
       usage: '<query:str>',
       usageDelim: ' '
     })
