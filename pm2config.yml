@@ -1,0 +1,3 @@
+name: PMMPBot
+script: index.js
+watch: true
